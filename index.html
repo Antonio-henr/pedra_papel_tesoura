@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pedra papel tesoura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h2>Jogo de Pedra Papel Tesoura</h2>
+        <h3 id="placar">PLACAR</h3>
+       <div class="painel">
+        <div class="imagem">
+            <img src="imagens/aguardando.png" alt="" id="aguardando_img" class="images">
+            <img src="imagens/tesoura.png" alt="" id="tesoura_img" class="images" style="display: none;">
+            <img src="imagens/pedra.png" alt="" id="pedra_img"  class="images" style="display: none;">
+            <img src="imagens/papel.png" alt="" id="papel_img" class="images" style="display: none;">
+        </div>
+
+        <div class="imagem_inimigo">
+            <img src="imagens/aguardando.png" alt="" id="aguardando_img_inimigo" class="images">
+            <img src="imagens/tesoura.png" alt="" id="tesoura_img_inimigo" class="images" style="display: none;">
+            <img src="imagens/pedra.png" alt="" id="pedra_img_inimigo"  class="images" style="display: none;">
+            <img src="imagens/papel.png" alt="" id="papel_img_inimigo" class="images" style="display: none;">
+        </div>
+        </div><!--painel-->
+        <input type="button" value="PEDRA" id="pedra">
+        <input type="button" value="PAPEL" id="papel">
+        <input type="button" value="TESOURA" id="tesoura">
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
